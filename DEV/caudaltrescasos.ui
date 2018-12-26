@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>594</width>
+    <height>201</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Caudal</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayoutA_Nivel01">
+     <item>
+      <widget class="QLabel" name="label_Titulo">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:22pt; font-weight:600; color:#3465a4;&quot;&gt;CALCULADORA DE CAUDAL TRES CASOS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayoutA_Nivel02">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayoutA_Nivel03">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayoutA_Nivel04">
+           <item>
+            <layout class="QVBoxLayout" name="GrupoA1verticalLayout_01">
+             <item>
+              <widget class="QLabel" name="GrupoA1label01_Velocidad">
+               <property name="text">
+                <string>Velocidad</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="GrupoA1label02_Area">
+               <property name="text">
+                <string>Area</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="GrupoA2verticalLayout_02">
+             <item>
+              <widget class="QLineEdit" name="GrupoA2line01_Velocidad"/>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="GrupoA2line02_Area"/>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="GrupoA3verticalLayout_03">
+             <item>
+              <widget class="QLabel" name="GrupoA3labelUnits01">
+               <property name="text">
+                <string>m/s</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="GrupoA3labelUnits02">
+               <property name="text">
+                <string>m**2</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ButtonCalcularA">
+           <property name="text">
+            <string>Calcular Caudal</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="labelFormulaA">
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Q=V*A&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="labelResultadoCaudal">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayoutB_Nivel03">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayoutB_Nivel04">
+           <item>
+            <layout class="QVBoxLayout" name="GrupoB1verticalLayout_01">
+             <item>
+              <widget class="QLabel" name="GrupoB1label01_Caudal">
+               <property name="text">
+                <string>Caudal</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="GrupoB1label02_Area">
+               <property name="text">
+                <string>Area</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="GrupoB2verticalLayout_02">
+             <item>
+              <widget class="QLineEdit" name="GrupoB2line01_Caudal"/>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="GrupoB2line02_Area"/>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="GrupoB3verticalLayout_03">
+             <item>
+              <widget class="QLabel" name="GrupoB3labelUnits01">
+               <property name="text">
+                <string>m**3/s</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="GrupoB3labelUnits02">
+               <property name="text">
+                <string>m**2</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ButtonCalcularB">
+           <property name="text">
+            <string>Calcular Velocidad</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="labelFormulaB">
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;V=Q/A&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="labelResultadoVelocidad">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayoutC_Nivel03">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayoutC_Nivel04">
+           <item>
+            <layout class="QVBoxLayout" name="GrupoC1verticalLayout_01">
+             <item>
+              <widget class="QLabel" name="GrupoC1label01_Caudal">
+               <property name="text">
+                <string>Caudal</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="GrupoC1label02_Velocidad">
+               <property name="text">
+                <string>Velocidad</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="GrupoC2verticalLayout_02">
+             <item>
+              <widget class="QLineEdit" name="GrupoC2line01_Caudal"/>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="GrupoC2line02_Velocidad"/>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="GrupoC3verticalLayout_03">
+             <item>
+              <widget class="QLabel" name="GrupoC3labelUnits01">
+               <property name="text">
+                <string>m**3/s</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="GrupoC3labelUnits02">
+               <property name="text">
+                <string>m/s</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ButtonCalcularC">
+           <property name="text">
+            <string>Calcular Area</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="labelFormulaC">
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;A=Q/V&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="labelResultadoArea">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
